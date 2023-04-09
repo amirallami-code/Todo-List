@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Js | Todo list</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul id="list-group" class="list-group todos mx-auto text-light">
+        <center>
+          <label class="text-light" style="font-size: 33px"> My Todos </label>
+        </center>
+        <div id="div-empty">
+          <center>
+            <label style="font-size: 20px; color: #dc3545"
+              >Your todo list is empty
+            </label>
+          </center>
+        </div>
+      </ul>
+
+      <form class="add text-center my-4" autocomplete="off">
+        <label class="text-light"> Add New Todo...</label>
+        <label id="alert" style="color: #dc3545">
+          insert correct Todo Name!
+        </label>
+        <input type="text" id="input" class="form-control m-auto" name="add" />
+      </form>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
