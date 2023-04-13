@@ -1,4 +1,4 @@
-﻿let $ = document
+let $ = document
 
 let listTodos = $.getElementById('list-group')
 let iItem = $.getElementsByTagName('i')
